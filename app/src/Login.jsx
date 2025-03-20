@@ -16,7 +16,7 @@ const Login = () => {
       return;
     }
 
-    if (uname.current.value === "mru" && upwd.current.value === "mru@123") {
+    if (uname.current.value === "indhu" && upwd.current.value === "indhu@123") {
       navigate("/dashboard");
     } else {
       setError("Invalid username or password");
